@@ -1,0 +1,13 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+img {
+  object-fit: cover;
+}
+
+li {
+  line-height: 15px;
+}
