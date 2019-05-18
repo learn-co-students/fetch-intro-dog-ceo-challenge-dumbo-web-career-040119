@@ -1,0 +1,10 @@
+#dog-image-container{
+    width: 700px;
+    height: 300px;
+}
+
+img{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
