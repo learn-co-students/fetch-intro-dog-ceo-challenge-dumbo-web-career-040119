@@ -61,8 +61,10 @@ function getDogBreeds(breed){
          let dogBreeds = document.getElementById('dog-breeds');
         //console.log(data.message.length);
         let dataArray = data.message
+        console.log(data.message)
         //organizes data.message by key: values format
         let newData = Object.keys(dataArray).map(function(key){
+            debugger
             return `${key} : ${dataArray[key]}`;
         });
 
